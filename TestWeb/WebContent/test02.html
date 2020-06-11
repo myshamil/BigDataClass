@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+	var a =10;
+	function add(x,y)	{
+		return x+ y;
+	}//이름있는 함수
+	var a2 = function(a,b){ //이름이 없는 함수
+		return a+b;
+	};
+	alert(a);
+	var c = a2(1,2);
+	alert(c);
+	var c2 =a2;
+	alert(c2(1,2));
+	alert (add(1,2));
+	
+</script>
+
+</body>
+</html>

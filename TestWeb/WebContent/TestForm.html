@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script> 
+	function CheckForm(){
+		//window.alert("HI BYE")
+		var userId = document.getElementById("userId").value;
+		//alert(userId);
+		if(userId == ""){
+			alert("Required userId");
+			return false;
+		}
+		var userPwd = document.getElementById("userPwd").value;
+		var userPwdConfirm = document.getElementById("userPwdConfirm").value;
+		//alert(userPwd + ", " + userPwdConfirm);
+		if(userPwd == ""){
+			alert("비밀번호 입력")
+			return false;
+		}
+		if(userPwdConfirm == ""){
+			alert("확인 입력")
+			return false;
+		}
+		if(userPwd != userPwdConfirm){
+			alert("비밀번호와 확인이 일치하지 않아")
+			return false;
+		}
+		if(userId == "test" && userPwd == "1234"){
+			alert("Login Successful")
+			return false;
+		}else{
+			alert("Check Id& Pwd plz") 
+			return false;
+		}
+			
+		
+		
+	}	
+
+</script>
+</head>
+<body>
+	<form action = "testFormProcess.jsp" method="get">
+	<input type="text" name="userId" id="userId"><br>
+	<input type = "password" name= "userPwd" id="userPwd">
+	<br>
+	<input type = "password" name ="userPwdConfirm" id ="userPwdConfirm"><br>
+	<input type = "button" value ="Login" onclick ="CheckForm();">
+	
+	</form>
+	<p onclick = "CheckForm();"> Click
+</body>
+</html>
