@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>로그인 화면</legend>
+    </fieldset>
+    <form action="EmployeeProcess.jsp" method="get">
+      아이디 : <input type="text" name="userId" required=""><br>
+      비밀번호 : <input type="password" name="userPwd" size="8" required=""><br>
+      <textarea rows="10" cols="10"></textarea>
+      1학년 <input type="radio" name="grade" checked>
+      2학년 <input type="radio" name="grade"><br>
+      <input type="submit" name="login">&nbsp;
+      <input type="reset" name="cancel"><br>
+      <a href="EmployeeProcess.jsp?userId=KKK">눌러보세용</a>
+    </form>
+  </body>
+</html>

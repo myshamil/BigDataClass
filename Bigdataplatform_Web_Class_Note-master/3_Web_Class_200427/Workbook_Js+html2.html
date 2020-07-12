@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function LoginProcess(){
+        var userID = document.getElementById('userID').value;
+        var userPWD = document.getElementById('userPWD').value;
+        var userPWD2 = document.getElementById('userPWD2').value;
+        if(userID == ""){
+          alert("아이디를 입력해주세요.");
+          return false;
+        }
+        if(userPWD ==""){
+          alert("비밀번호를 입력해주세요.");
+          return false;
+        }
+        if(userID == "test" && userPWD == "1234" && userPWD2 == "1234"){
+          document.getElementById("msg").innerHTML = "로그인 되었습니다.";
+          document.getElementById("msg").style.color = "red";
+        }
+        else {
+          alert("다시 확인해주세요");
+          document.getElementById("userID").value = "";
+          document.getElementById("userPWD").value = "";
+          document.getElementById("userPWD2").value = "";
+        }
+      }
+      // userId = "test", userPWD = 1234 로그인처
+
+    </script>
+  </head>
+  <body>
+    <table style="background-color : gray">
+      <tr>
+        <td colspan="2"> <img src="./img/Retrive.jpg" width = "100"></td>
+      </tr>
+      <tr>
+        <td>아이디 : </td>
+        <td><input type="text" name="userID" id = "userID" size = 8>
+      </tr>
+      <tr>
+        <td>비밀번호 : </td>
+        <td><input type="password" name="userPWD" id = "userPWD" size="8">
+      </tr>
+      <tr>
+        <td>비밀번호 확인 : </td>
+        <td><input type ="password" name = "userPWD2" id = "userPWD2" size= "8"></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="button" value="login" onclick="LoginProcess();">
+        </td>
+      </tr>
+    </table>
+    <span id="msg"><p></p></span>
+  </body>
+</html>

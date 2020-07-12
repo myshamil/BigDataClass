@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> 로그인 페이지 </title>
+<script type="text/javascript">
+  function CheckLogin(){
+    var userID = document.getElementById("userID").value;
+    var userPwd = document.getElementById("userPWD").value;
+
+    if(userID ==""){
+      alert("아이디를 입력해주세요.");
+      return false;
+    }
+    if(userPWD == ""){
+      alert("패스워드를 입력해주세요.");
+      return false;
+    }
+    if(userID == "test" && userPwd == "1234"){
+      document.getElementById("msg").innerHTML = "로그인 되었습니다.";
+      document.getElementById("msg").style.color = "red";
+
+  }
+    else {
+      alert("다시 확인해주세요");
+      document.getElementById("userID").value = "";
+      document.getElementById("userPWD").value = "";
+      document.getElementById("userPWD2").value = "";
+  }
+}
+</script>
+  </head>
+  <body>
+<h1> 회원 로그인 </h1>
+<hr>
+<table>
+  <tr>
+    <td>아이디 : </td>
+    <td> <input type="text" name="userID" value="" id = "userID"></td>
+  </tr>
+  <tr>
+    <td>비밀번호 : </td>
+    <td><input type="password" name="userPWD" value="" id = "userPWD"></td>
+  </tr>
+  <tr>
+    <td><button type="button" name="button" onclick="CheckLogin()">로그인</button></td>
+  </tr>
+  <tr>
+    <td><span id="msg"><p></p></span></td>
+  </tr>
+
+</table>
+  </body>
+</html>

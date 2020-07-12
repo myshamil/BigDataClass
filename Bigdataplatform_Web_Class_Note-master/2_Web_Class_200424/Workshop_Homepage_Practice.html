@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>회원 가입 양식</title>
+    <center>
+      <h1>회원 가입</h1>
+    </center>
+  </head>
+  <body>
+    <fieldset>
+        <table border = 0>
+        <tr>
+          <td>이름 : </td>
+             <td><input type="text" name="name" required></td>
+        </tr>
+      <tr>
+        <td> ID :</td>
+        <td> <input type="text" name="userId" required></td>
+      </tr>
+      <tr>
+        <td>PW : </td>
+        <td><input type="password" name="userPwd" password size="20" required></td>
+      </tr>
+      <tr>
+        <td>PW 확인 : </td>
+        <td><input type="text" name="name" required></td>
+      </tr>
+      <tr>
+        <td>Mail : </td>
+        <td><input type="text" name="mail"></td>
+      </tr>
+      <tr>
+        <td>성별 : </td>
+        <td><input type="radio" name="gender" checked> 남자</td>&nbsp;
+        <td><input type="radio" name="gender"> 여자</td>&nbsp;
+        <td><input type="radio" name="gender"> 그 외</td>&nbsp;
+      </tr>
+
+      <tr>
+        <td>전화번호 : </td>
+        <td><input type="text" name="phone" value="번호를 입력하세요"></td>
+      </tr>
+      <tr>
+        <td>홈페이지 : </td>
+        <td><input type="text" name="homepage"></td>
+      </tr>
+      <tr>
+        <td>생일 : </td>
+        <td><input type="date" name="birth" min="1990-01-01" max="2020-12-30"></td>
+      </tr>
+      <tr>
+        <td>좋아하는 색깔 : </td>
+        <td><input type="color" name="color_value" value="#ffffff"></td>
+      </tr>
+      <tr>
+        <td>관심분야</td>
+        <td><input type="checkbox" name="favor"> 경제</td>&nbsp;
+        <td><input type="checkbox" name="favor"> IT</td> &nbsp;
+        <td><input type="checkbox" name="favor"> 사회</td> &nbsp;
+        <td><input type="checkbox" name="favor"> 과학</td> &nbsp;
+        <td><input type="checkbox" name="favor"> 음악</td> &nbsp;
+        <td><input type="checkbox" name="favor"> 미술</td> &nbsp;
+      </tr>
+      <tr>
+        <td>전공 선택&nbsp;</td>
+        <td><select name="job" mulitple="">
+         <option value="0">공과계열</option>
+         <option value="1">자연계열</option>
+         <option value="2">상경계열</option>
+         <option value="3">어문계열</option>
+       </select></td>
+      </tr>
+      <tr>
+        <td>희망 진로</td>
+        <td><input type="text" list="majorlist"name="major">
+        <datalist id="majorlist">
+          <option value="goverment">공공기관</option>
+          <option value="bank">금융업</option>
+          <option value="plant">제조업</option>
+          <option value="si">솔루션</option>
+        </datalist></td>
+      </tr>
+        <tr>
+          <td><button type="button" name="OK" onclick="alert('확인되었습니다.');">확인</button></td>&nbsp;
+          <td><button type="button" name="OK" onclick="alert('취소되었습니다.');">취소</button></td>
+        </tr>
+            </fieldset>
+  </body>
+</html>

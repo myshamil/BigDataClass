@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>회원 가입</title>
+    <script type="text/javascript">
+      function CheckJoin() {
+      var userName = document.getElementById("userName").value;
+      var userId = document.getElementById("userId").value;
+      var userPWD = document.getElementById("userPwd").value;
+      var checkPwd = document.getElementById("checkPwd").value;
+
+      if(userName == ""){
+        alert("이름을 입력해주세요.");
+        return false;
+      }
+
+      if(userId == ""){
+        alert("아이디를 입력해주세요.");
+        return false;
+      }
+      if(userPWD == ""){
+        alert("비밀번호를 입력해주세요.");
+        return false;
+      }
+      if(checkPwd == ""){
+        alert("비밀번호를 확인해주세요.");
+        return false;
+      }
+
+      if(userName =! "" && userId != "" && userPwd != "" && checkPwd != "")
+      {
+        document.getElementById("msg").innerHTML = "가입 되었습니다.";
+        document.getElementById("msg").style.color = "red";
+      }
+    }
+    </script>
+    <style type="text/css">
+      .joinTable{
+        background-color : gray;
+        color : "white";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>회원 가입</h1>
+    <hr>
+    <table border="0" class = "joinTable">
+      <tr>
+        <td> 이름 : </td>
+        <td> <input type="text" id="userName" value="" placeholder="이름을 입력하세요."> </td>
+      </tr>
+      <tr>
+        <td> 아이디 : </td>
+        <td> <input type="text" id="userId" value="" placeholder="아이디 입력하세요."> </td>
+      </tr>
+      <tr>
+        <td> 비밀번호 : </td>
+        <td> <input type="password" id="userPwd" value="" placeholder="비밀번호  입력하세요."> </td>
+      </tr>
+      <tr>
+        <td> 비밀번호 확인 : </td>
+        <td> <input type="password" id="checkPwd" value="" placeholder="비밀번호를 확인하세요."> </td>
+      </tr>
+      <tr>
+        <td> 이메일 : </td>
+        <td> <input type="text" name="userEmail" value=""> </td>
+      </tr>
+      <tr>
+        <td> 성별 : </td>
+        <td> <input type="radio" name="man" checked>남자
+        <input type="radio" name="woman">여자</td>
+      </tr>
+      <tr>
+        <td> 전화번호 : </td>
+        <td> <select>
+          <option value="1">010</option>
+          <option value="2">011</option>
+          <option value="3">017</option>
+          <option value="4">019</option>
+        </select>
+          -<input type="text" name="userPN" size="6">-<input type="text" name="userPN1" size="6"> </td>
+      </tr>
+      <tr>
+        <td> 홈페이지 : </td>
+        <td> <input type="text" name="userPage" value=""> </td>
+      </tr>
+      <tr>
+        <td> 생일 : </td>
+        <td> <input type="date" name="userHBD" value=""> </td>
+      </tr>
+      <tr>
+        <td> 좋아하는 색깔 : </td>
+        <td> <input type="color" name="userColor" value="#FFFFFF"> </td>
+      </tr>
+      <tr>
+        <td> 관심 분야 :  </td>
+        <td>
+          <input type="checkbox" name="userHB1" value=""> 경제
+          <input type="checkbox" name="userHB2" value=""> IT
+          <input type="checkbox" name="userHB3" value=""> 사회
+          <input type="checkbox" name="userHB4" value=""> 과학
+          <input type="checkbox" name="userHB5" value=""> 음악
+          <input type="checkbox" name="userHB6" value=""> 미술
+      </tr>
+      <tr>
+        <td> 하고 싶은 말 : </td>
+        <td> <textarea name="userSay" rows="8" cols="80"></textarea> </td>
+      </tr>
+      <tr>
+        <td> <button type="button" name="OK" onclick="CheckJoin()">확인</button>
+       <button type="button" name="Cancel" onclick="alert('취소되었습니다')">취소</button> </td>
+      </tr>
+      <tr>
+        <td><span id="msg"><p></p></span></td>
+      </tr>
+    </table>
+  </body>
+</html>

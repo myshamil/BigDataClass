@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function Message(str, str2){
+        // alert(typeof str); // Typeof 실습
+        // alert(typeof str2);
+        // alert(document.getElementById("msg").innerHTML); //innerHTML 실습
+        // document.getElementById("msg").innerHTML = "<b>test2</b>";
+        // alert(document.getElementById("msg").innerHTML);
+        document.getElementById("msg").innerHTML = "안녕하세요";
+        document.getElementById("msg").style.color = "red";
+      }
+    </script>
+  </head>
+  <body>
+    <table style=background-color : "#f0f0f0;">
+      <tr>
+        <td colspan="2">
+          <button type="button" value="Login" onclick="Message('test', 20);">Login</button>
+        </td>
+      </tr>
+    </table>
+    <span id="msg"><p>test</p></span>
+  </body>
+</html>
