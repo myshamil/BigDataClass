@@ -1,0 +1,4 @@
+메일 발송주소 : thomas194512@gmail.com
+첨부 파일명 : 이름.zip
+포함파일 : jquery-3.5.1.js, login.html. loginProcess.java, 
+2.2001020904_17v1_저장시스템(평가지)_20200518.hwp
