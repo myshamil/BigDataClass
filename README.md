@@ -10,7 +10,7 @@ try to understand something cool!
 대한상공회의소 서울기술교육센터(화곡동)에서 진행하는 '자바기반 빅데이터 플랫폼 구축 전문가(개발자) 양성교육' 과정 수강 중에 작성하는 파일들을 저장합니다!<br>
 스터디 관련 파일 : https://github.com/myshamil/studying.git <br>
 클래스 프로젝트(홈페이지 개발) : https://github.com/Theo-Junior/classProject.git <br>
-파이널 프로젝트 Movie for You : https://github.com/MinjiHa/MovieForYou.git <br>
+파이널 프로젝트 Movie for You : https://github.com/myshamil/Project_NLP_MovieForYou.git <br>
 
 
 <hr>
