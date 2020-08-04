@@ -1,4 +1,4 @@
-# JavaProg
+# BigDataClass
 Hello, I am new in Programming.
 Start studying Java, Python
 HTML, CSS, Javascript
