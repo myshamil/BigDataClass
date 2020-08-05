@@ -7,18 +7,18 @@ Try to understand something cool!
 ===================================
 대한상공회의소 서울기술교육센터(화곡동)에서 진행하는 '자바기반 빅데이터 플랫폼 구축 전문가(개발자) 양성교육' 과정 수강 중에 작성하는 파일들을 저장합니다!<br>
 If you want to see my projects click!<br>
-스터디 관련 파일 : https://github.com/myshamil/studying.git <br>
-클래스 프로젝트 홈페이지 개발 : https://github.com/Theo-Junior/classProject.git <br>
-파이널 프로젝트 영화추천시스템 FeelNa(Movie) : https://github.com/myshamil/Project_NLP_MovieForYou.git <br> 
-개인 프로젝트 작문시스템 makeCoverLetter(진행중) :https://github.com/myshamil/makeCoverLetter_LSTM.git <br>
+Study 스터디 관련 파일 : https://github.com/myshamil/studying.git <br>
+Class Project Web page클래스 프로젝트 홈페이지 개발 : https://github.com/Theo-Junior/classProject.git <br>
+Movie Recommendation System 파이널 프로젝트 영화추천시스템 FeelNa(Movie) : https://github.com/myshamil/Project_NLP_MovieForYou.git <br> 
+Writing Cover Letter by AI 개인 프로젝트 작문시스템 makeCoverLetter(진행중) :https://github.com/myshamil/makeCoverLetter_LSTM.git <br>
 
 
 <hr>
-
+BigData Platform Class
 교육 과정 : 자바기반 빅데이터 플랫폼 구축 전문가(개발자) 양성교육    
 강의 : 이정구, 박길식 교수님    
 기간 : 2020. 04. 07 - 2020. 08. 13 / 총 88일(700 H)     
-장소 : 대한상공회의소 서울기술교육센터(화곡동)    
+장소 : 대한상공회의소 서울기술교육센터(화곡동) https://www.kccistc.net/co
 
 <hr> 
 
