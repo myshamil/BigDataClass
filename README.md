@@ -14,11 +14,10 @@ Writing Cover Letter by AI 개인 프로젝트 작문시스템 makeCoverLetter(�
 
 
 <hr>
-BigData Platform Class
-교육 과정 : 자바기반 빅데이터 플랫폼 구축 전문가(개발자) 양성교육    
-강의 : 이정구, 박길식 교수님    
+BigData Platform Class  
+교육 과정 : 자바기반 빅데이터 플랫폼 구축 전문가(개발자) 양성교육  
 기간 : 2020. 04. 07 - 2020. 08. 13 / 총 88일(700 H)     
-장소 : 대한상공회의소 서울기술교육센터(화곡동) https://www.kccistc.net/co
+장소 : 대한상공회의소 서울기술교육센터(화곡동) https://www.kccistc.net/co  
 
 <hr> 
 
