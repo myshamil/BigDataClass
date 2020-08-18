@@ -1,5 +1,4 @@
-## BigDataClass
-Hello, I am new in Programming.  
+## BigDataClass 
 Start studying Java, Python, HTML, CSS, Javascript, Oracle, JSP&Servlet  
 Try to understand something cool!
 
